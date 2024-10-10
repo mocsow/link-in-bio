@@ -2,6 +2,7 @@
 <html>
   <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Mo's Links</title>
 
@@ -42,8 +43,40 @@
 
     .item {
       background-color: rgba(149, 123, 173, .5);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
     }
 
+    .main-container {
+      max-width: 640px;
+      margin: auto;
+    }
+
+    .image-row {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .name-row {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .social-icons-row {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .item {
+      margin-bottom: 30px;
+    }
+
+    .link-text {
+      text-align: center;
+      flex-grow: 1;
+    }
   </style>
   </head>
 
@@ -68,21 +101,21 @@
         
         <div class="item">
           <img class="thumbnail" src="images/img4.jpg" alt="My Heart">
-          <a target="_blank" href="https://poemsworld.net/sufi-love-poems/">
+          <a class="link-text" target="_blank" href="https://poemsworld.net/sufi-love-poems/">
             Beautiful Sufi Love Poems
           </a>
         </div>
 
         <div class="item">
           <img class="thumbnail" src="/images/img3.jpg" alt="My Mind">
-          <a target="_blank" href="https://dailystoic.com/stoic-quotes/">
+          <a class="link-text" target="_blank" href="https://dailystoic.com/stoic-quotes/">
             Thought provoking Stoic sayings
           </a>
         </div>
 
         <div class="item">
           <img class="thumbnail" src="/images/img2.jpg" alt="My Soul">
-          <a target="_blank" href="https://www.planetary.org/worlds/pale-blue-dot">
+          <a class="link-text" target="_blank" href="https://www.planetary.org/worlds/pale-blue-dot">
             A reminder to keep things in perspective.
           </a>
         </div>
